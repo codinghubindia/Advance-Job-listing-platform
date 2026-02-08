@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+uploads/
+
+# Build outputs
+dist/
+build/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Test output
+test-results/
+junit.xml
+
+# Test file
+test
+
+# Note: Keep test/fixtures/sample-resume.pdf in version control
+# It's a sample file needed for tests
